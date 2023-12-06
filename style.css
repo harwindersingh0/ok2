@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Interactions section */
+  .interactions {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .draggable,
+  .droppable,
+  .resizable {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .draggable {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .droppable {
+    width: 200px; /* Increased width */
+    height: 200px; /* Increased height */
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .resizable {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .selectable ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .selectable li {
+    padding: 5px 10px;
+  }
+  
+  /* Widgets section */
+  .widgets {
+    margin-bottom: 40px;
+  }
+  
+  .widgets input[type="text"],
+  .widgets #slider {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Effects section */
+  .effects {
+    text-align: center;
+  }
+  
+  .effects button {
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .effects .effect-div {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
